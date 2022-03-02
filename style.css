@@ -1,0 +1,64 @@
+body {
+    background-color: aquamarine;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+nav, aside, footer {
+    background-color: aqua;
+    border: 1px solid white;
+}
+
+.navbar, footer {
+    display: flex;
+    flex: 0 0 100%;
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.navbar ul .company-name {
+    font-weight: bold;
+}
+
+.navbar ul li {
+    list-style-type: none;
+    color: goldenrod;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: goldenrod;
+}
+
+aside {
+    flex: 0 0 10%;
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 0 0 39%;
+}
+
+article div {
+    gap: 10px;
+}
+
+article .article-column {
+    flex: 0 0 30%;
+}
+
+article div img {
+    width: 200px;
+    padding: 5px;
+}
